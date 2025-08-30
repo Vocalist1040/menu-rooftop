@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -46,11 +45,19 @@
             border-top: 1px solid #444;
             margin: 40px 0;
         }
+        .note {
+            text-align:center;
+            font-style: italic;
+            color:#ffdd88;
+        }
+        @media (max-width:600px){
+            .price { float:none; display:block; margin-top:4px; }
+        }
     </style>
 </head>
 <body>
     <h1>ROOFTOP BRIGANTI — MENÙ</h1>
-    <p style="text-align:center; font-style:italic; color:#ffdd88;">clicca, scopri e sorseggia – click, explore and sip</p>
+    <p class="note">clicca, scopri e sorseggia – click, explore and sip</p>
 
     <div class="section">
         <h2>🫒 PER INIZIARE | TO START</h2>
@@ -68,44 +75,43 @@
 
     <div class="section">
         <h2>🍸 SIGNATURE COCKTAILS</h2>
-        <div class="item"><strong>Il Mandorlino</strong> <span class="price">€ 14,00</span><br>
+        <div class="item"><strong>Il Mandorlino</strong> <span class="price">€ 15,00</span><br>
         <span class="description">Rum infuso alla vaniglia e arancia, sciroppo di mandorla e arancia, lime<br>
         Rum infused with vanilla and orange, almond & orange syrup, lime</span></div>
 
-        <div class="item"><strong>Bianchino</strong> <span class="price">€ 13,00</span><br>
+        <div class="item"><strong>Bianchino</strong> <span class="price">€ 14,00</span><br>
         <span class="description">Rum al cocco, batida de coco, magic velvet, succo di lime<br>
         Coconut rum, batida de coco, magic velvet, lime juice</span></div>
 
-        <div class="item"><strong>Acquazzurra</strong> <span class="price">€ 10,00</span><br>
+        <div class="item"><strong>Acquazzurra</strong> <span class="price">€ 11,00</span><br>
         <span class="description">Vodka, Blue Curaçao, succo di ananas, lime, simple syrup<br>
         Vodka, Blue Curaçao, pineapple juice, lime, simple syrup</span></div>
     </div>
 
     <div class="section">
         <h2>🍹 CLASSIC COCKTAILS</h2>
-        <div class="item"><strong>Cuba Libre</strong> <span class="price">€ 8,00</span><br><span class="description">Rum, lime, cola / Rum, lime, cola</span></div>
-        <div class="item"><strong>Rum Bianco</strong> <span class="price">€ 8,00</span><br><span class="description">Rum bianco, lime / White rum, lime</span></div>
-        <div class="item"><strong>Dry Martini</strong> <span class="price">€ 10,00</span><br><span class="description">Vermouth Dry, London Dry Gin / Dry Vermouth, London Dry Gin</span></div>
-        <div class="item"><strong>Italy Martini</strong> <span class="price">€ 10,00</span><br><span class="description">Gin, triple sec, lime, sciroppo al fragolo / Gin, triple sec, lime, strawberry syrup</span></div>
+        <div class="item"><strong>Cuba Libre</strong> <span class="price">€ 9,00</span><br><span class="description">Rum, lime, cola / Rum, lime, cola</span></div>
+        <div class="item"><strong>Rum Bianco</strong> <span class="price">€ 9,00</span><br><span class="description">Rum bianco, lime / White rum, lime</span></div>
+        <div class="item"><strong>Dry Martini</strong> <span class="price">€ 11,00</span><br><span class="description">Vermouth Dry, London Dry Gin / Dry Vermouth, London Dry Gin</span></div>
+        <div class="item"><strong>Italy Martini</strong> <span class="price">€ 11,00</span><br><span class="description">Gin, triple sec, lime, sciroppo al fragolo / Gin, triple sec, lime, strawberry syrup</span></div>
         <div class="item"><strong>Spritz</strong> <span class="price">€ 8,00</span><br><span class="description">Prosecco, Aperol, soda / Prosecco, Aperol, soda</span></div>
         <div class="item"><strong>Pink Spritz</strong> <span class="price">€ 8,00</span><br><span class="description">Bitter rosé, prosecco / Rosé bitter, prosecco</span></div>
-        <div class="item"><strong>Negroni</strong> <span class="price">€ 8,00</span><br><span class="description">Gin, Vermouth, Bitter / Gin, Vermouth, Bitter</span></div>
-        <div class="item"><strong>New York Sour</strong> <span class="price">€ 10,00</span><br><span class="description">Whiskey, limone, zucchero, vino rosso / Whiskey, lemon, sugar, red wine</span></div>
-        <div class="item"><strong>Sex on the Beach</strong> <span class="price">€ 8,00</span><br><span class="description">Vodka, peach, succo d’arancia, cranberry / Vodka, peach, orange juice, cranberry</span></div>
-        <div class="item"><strong>Gin Tonic</strong> <span class="price">€ 8/10/15</span><br><span class="description">Gin e acqua tonica (premium disponibili) / Gin and tonic water (premium available)</span></div>
+        <div class="item"><strong>Negroni</strong> <span class="price">€ 9,00</span><br><span class="description">Gin, Vermouth, Bitter / Gin, Vermouth, Bitter</span></div>
+        <div class="item"><strong>New York Sour</strong> <span class="price">€ 11,00</span><br><span class="description">Whiskey, limone, zucchero, vino rosso / Whiskey, lemon, sugar, red wine</span></div>
+        <div class="item"><strong>Sex on the Beach</strong> <span class="price">€ 9,00</span><br><span class="description">Vodka, peach, succo d’arancia, cranberry / Vodka, peach, orange juice, cranberry</span></div>
+        <div class="item"><strong>Gin Tonic</strong> <span class="price">€ 9/12/15</span><br><span class="description">Gin e acqua tonica (premium disponibili) / Gin and tonic water (premium available)</span></div>
     </div>
 
     <div class="section">
         <h2>🍸 MOCKTAILS (ANALCOLICI)</h2>
-        <div class="item"><strong>Virgin Colada</strong> <span class="price">€ 7,00</span><br><span class="description">Ananas, cocco / Pineapple, coconut</span></div>
-        <div class="item"><strong>Sunset</strong> <span class="price">€ 7,00</span><br><span class="description">Succo d’ananas, granatina, soda / Pineapple juice, grenadine, soda</span></div>
-        <div class="item"><strong>Bio Profondo</strong> <span class="price">€ 7,00</span><br><span class="description">Mirtilli, menta, lime, sciroppo semplice, soda / Blueberries, mint, lime, simple syrup, soda</span></div>
+        <div class="item"><strong>Virgin Colada</strong> <span class="price">€ 8,00</span><br><span class="description">Ananas, cocco / Pineapple, coconut</span></div>
+        <div class="item"><strong>Sunset</strong> <span class="price">€ 8,00</span><br><span class="description">Succo d’ananas, granatina, soda / Pineapple juice, grenadine, soda</span></div>
+        <div class="item"><strong>Bio Profondo</strong> <span class="price">€ 8,00</span><br><span class="description">Mirtilli, menta, lime, sciroppo semplice, soda / Blueberries, mint, lime, simple syrup, soda</span></div>
     </div>
 
     <div class="section">
         <h2>🍺 BIRRE | BEERS</h2>
         <div class="item"><strong>Beck’s</strong> <span class="price">€ 5,00</span></div>
-        <div class="item"><strong>Tennent’s</strong> <span class="price">€ 6,00</span></div>
         <div class="item"><strong>IPA Artigianale</strong> <span class="price">€ 6,00</span></div>
         <div class="item"><strong>Terra d’Otranto</strong> <span class="price">€ 6,00</span></div>
         <div class="item"><strong>Raffo</strong> <span class="price">€ 5,00</span></div>
